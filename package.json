@@ -5,6 +5,7 @@
     "apps/*"
   ],
   "scripts": {
-    "dev:showcase": "bun --filter @instrument/showcase dev"
+    "dev:showcase": "bun --filter @instrument/showcase dev",
+    "lint:showcase": "bun --filter @instrument/showcase lint"
   }
 }
