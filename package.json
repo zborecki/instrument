@@ -1,0 +1,10 @@
+{
+  "name": "instrument",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:showcase": "bun --filter @instrument/showcase dev"
+  }
+}
