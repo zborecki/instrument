@@ -2,10 +2,13 @@
   "name": "instrument",
   "private": true,
   "workspaces": [
-    "apps/*"
+    "apps/*",
+    "packages/*",
+    "shared/*"
   ],
   "scripts": {
     "dev:showcase": "bun --filter @instrument/showcase dev",
-    "lint:showcase": "bun --filter @instrument/showcase lint"
+    "lint": "bun --filter '*' lint",
+    "build:types": "bun --filter @instrument/types build"
   }
 }

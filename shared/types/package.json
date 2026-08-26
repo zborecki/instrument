@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@eslint/js": "^9",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^9",
+    "eslint-plugin-import": "^2.32.0",
+    "globals": "^17.11.0",
+    "jiti": "^2.7.0",
+    "typescript-eslint": "^8.68.0"
+  },
+  "exports": {
+    "./api/common": "./src/api/common.ts",
+    "./api/responses": "./src/api/responses.ts",
+    "./api/settings": "./src/api/settings.ts",
+    "./types/common": "./src/common.ts"
+  },
+  "name": "@instrument/types",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint ."
+  },
+  "type": "module",
+  "version": "1.0.0"
+}

@@ -9,6 +9,11 @@ const eslintConfig = defineConfig([
   ...nextTs,
   {
     files: ['**/*.{js,jsx,mjs,cjs,ts,tsx,mts}'],
+    languageOptions: {
+      parserOptions: {
+        tsconfigRootDir: import.meta.dirname
+      }
+    },
     plugins: {
       '@stylistic': stylisticPlugin
     },
