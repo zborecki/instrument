@@ -1,1 +1,16 @@
 @import "tailwindcss";
+@import "@heroui/styles"; 
+
+@import './typography.css';
+
+:root {
+  --line-height-120: 120%;
+  --line-height-130: 120%;
+  --line-height-140: 140%;
+}
+
+@theme {
+  --leading-120: var(--line-height-120);
+  --leading-130: var(--line-height-130);
+  --leading-140: var(--line-height-140);
+}

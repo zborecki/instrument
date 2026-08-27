@@ -1,6 +1,5 @@
 import { PropsWithChildren } from 'react';
 
-import Header from '@/features/header';
 import { getSettings } from '@/requests/settings';
 
 const MainLayout = async ({ children }: PropsWithChildren) => {
@@ -10,7 +9,6 @@ const MainLayout = async ({ children }: PropsWithChildren) => {
 
   return (
     <>
-      <Header />
       {children}
     </>
   );

@@ -1,0 +1,11 @@
+@utility typography-action {
+  @apply leading-120 text-xl max-sm:text-lg;
+}
+
+@utility typography-h1 {
+  @apply leading-120 text-7xl max-sm:text-4xl;
+}
+
+@utility typography-subhead1 {
+  @apply leading-120 text-3xl max-sm:text-2xl;
+}

@@ -9,7 +9,9 @@
     "typescript-eslint": "^8.68.0"
   },
   "exports": {
+    "./api/blocks": "./src/api/blocks.ts",
     "./api/common": "./src/api/common.ts",
+    "./api/pages": "./src/api/pages.ts",
     "./api/responses": "./src/api/responses.ts",
     "./api/settings": "./src/api/settings.ts",
     "./types/common": "./src/common.ts"
